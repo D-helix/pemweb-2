@@ -1,0 +1,16 @@
+<HTML>
+<HEAD>
+<TITLE> TANGGAL </TITLE>
+</HEAD>
+<BODY>
+<font size="10px">
+<?php
+date_default_timezone_set('asia/ jakarta);
+echo "Sekarang tanggal  ";
+echo date ('d-f-y');
+echo "<br>dan jam ";
+echo date ('h:i:s A');
+?>
+</FONT>
+</BODY>
+<HTML>
